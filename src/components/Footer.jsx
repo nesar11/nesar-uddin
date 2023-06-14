@@ -14,6 +14,7 @@ const Container = styled.div`
   display: flex;
   background-color: #898787;
   ${mobile({ flexDirection: 'column' })}
+  margin-top: auto;
 `;
 const Wrapper = styled.div`
   display: flex;
@@ -88,16 +89,16 @@ const ContactItem = styled.div`
   align-items: center;
 `;
 
-const Payment = styled.img`
-  width: 50%;
-`;
+// const Payment = styled.img`
+//   width: 50%;
+// `;
 
 const Footer = () => {
   return (
     <Container>
       <Wrapper>
         <Left>
-          <Logo>InvenTe</Logo>
+          <Logo>Nesar Uddin</Logo>
           <Desc>
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
@@ -123,31 +124,28 @@ const Footer = () => {
           <Title>Useful Links</Title>
           <List>
             <ListItem>Home</ListItem>
-            <ListItem>Cart</ListItem>
-            <ListItem>Man Fashion</ListItem>
-            <ListItem>Woman Fashion</ListItem>
-            <ListItem>Accessories</ListItem>
-            <ListItem>My Account</ListItem>
-            <ListItem>Order Tracking</ListItem>
-            <ListItem>Wishlist</ListItem>
-            <ListItem>Wishlist</ListItem>
-            <ListItem>Terms</ListItem>
+            <ListItem>About</ListItem>
+            <ListItem>Skills</ListItem>
+            <ListItem>service</ListItem>
+            <ListItem>Projects</ListItem>
+            <ListItem>Contact</ListItem>
           </List>
         </Center>
         <Right>
           <Title>Contact</Title>
           <ContactItem>
-            <Room style={{ marginRight: '10px' }} /> 622 Dixie Path , South
-            Tobinchester 98336
+            <Room style={{ marginRight: '10px' }} />
+            Dataran Prima Condominium<br></br>Jalan PJU 1/42, Dataran Prima
+            <br></br> 47301 Petaling Jaya, Selangor
           </ContactItem>
           <ContactItem>
-            <Phone style={{ marginRight: '10px' }} /> +1 234 56 78
+            <Phone style={{ marginRight: '10px' }} /> +6011 2836 5140
           </ContactItem>
           <ContactItem>
             <MailOutline style={{ marginRight: '10px' }} />{' '}
-            contact@mishratech.com
+            nesar.uddin100@gmail.com
           </ContactItem>
-          <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+          {/* <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" /> */}
         </Right>
       </Wrapper>
     </Container>

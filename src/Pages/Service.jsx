@@ -13,7 +13,9 @@ const Container = styled.div`
   position: relative;
 
   &:hover {
-    background-color: #f8d0f4c2;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+      rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    transition: all ease 0.5s;
   }
 `;
 

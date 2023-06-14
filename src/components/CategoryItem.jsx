@@ -3,14 +3,22 @@ import { styled } from 'styled-components';
 import { mobile } from '../reponsive';
 const Container = styled.div`
   flex: 1;
-  margin: 3px;
-  height: 25vh;
+  margin: 10px;
+  min-width: 280px;
+  height: 350px;
   position: relative;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+      rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    transition: all ease 0.5s;
+  }
 `;
 const Image = styled.img`
+  cursor: pointer;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0.3;
   ${mobile({ height: '30vh' })}
 `;
 const Info = styled.div`
@@ -25,7 +33,8 @@ const Info = styled.div`
   justify-content: center;
 `;
 const Title = styled.h1`
-  color: white;
+  text-align: center;
+  color: #393939;
   margin-bottom: 20px;
 `;
 const Button = styled.button`
@@ -36,27 +45,14 @@ const Button = styled.button`
   cursor: pointer;
   font-weight: 600;
 `;
-const Icon = styled.img`
-  width: 50%;
-  height: 50%;
-  object-fit: cover;
-  ${mobile({ height: '30vh' })}
-`;
-const PageTitle = styled.h1`
-  width: 100%;
-  text-align: center;
-  color: #b00296;
-  transition: step-start();
-`;
+
 const CategoryItem = ({ item }) => {
   return (
     <Container>
-      <PageTitle>Skills</PageTitle>
       <Image src={item.img} />
       <Info>
-        <Icon src={item.icon} />
         <Title>{item.title} </Title>
-        <Button> SHOP NOW</Button>
+        <Button> Read More</Button>
       </Info>
     </Container>
   );

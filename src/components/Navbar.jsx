@@ -1,9 +1,12 @@
 import React from 'react';
 import { styled } from 'styled-components';
 import { mobile } from '../reponsive';
+import { Link, Outlet } from 'react-router-dom';
+
 const Container = styled.div`
   height: 60px;
   padding: 0px 20px 25px 10px;
+
   ${mobile({ height: '50px' })}
 `;
 const Wrapper = styled.div`
@@ -33,6 +36,21 @@ const MenuItem = styled.div`
   cursor: pointer;
   margin-left: 25px;
   ${mobile({ fontSize: '12px', marginLeft: '10px' })}
+  & a:link {
+    text-decoration: none;
+  }
+
+  & a:visited {
+    text-decoration: none;
+  }
+
+  & a:hover {
+    text-decoration: none;
+  }
+
+  & a:active {
+    text-decoration: none;
+  }
 `;
 const Logo = styled.h1`
   font-weight: bold;
@@ -47,10 +65,21 @@ const Navbar = () => {
         </Left>
         <Center></Center>
         <Right>
-          <MenuItem> About</MenuItem>
-          <MenuItem> Skills</MenuItem>
-          <MenuItem> Service</MenuItem>
-          <MenuItem> Projects</MenuItem>
+          <Link to="/">
+            <MenuItem> Home</MenuItem>
+          </Link>
+          <Link to="/about">
+            <MenuItem> About</MenuItem>
+          </Link>
+          <Link to="/skills">
+            <MenuItem> Skills</MenuItem>
+          </Link>
+          <Link to="/Service">
+            <MenuItem> Service</MenuItem>
+          </Link>
+          <Link to="/projects">
+            <MenuItem> Projects</MenuItem>
+          </Link>
           <MenuItem>Contact</MenuItem>
         </Right>
       </Wrapper>

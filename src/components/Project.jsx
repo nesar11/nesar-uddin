@@ -3,8 +3,8 @@ import { styled } from 'styled-components';
 
 const Info = styled.div`
   opacity: 0;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   position: absolute;
   top: 0;
   left: 0;
@@ -20,8 +20,8 @@ const Info = styled.div`
 const Container = styled.div`
   flex: 1;
   margin: 5px;
-  min-width: 280px;
-  height: 350px;
+  min-width: 350px;
+  height: 280px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,7 +42,8 @@ const Circle = styled.div`
 `;
 
 const Image = styled.img`
-  height: 75%;
+  min-width: 350px;
+  height: 280px;
   z-index: 2;
 `;
 
