@@ -100,10 +100,10 @@ const Footer = () => {
         <Left>
           <Logo>Nesar Uddin</Logo>
           <Desc>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don’t look even slightly
-            believable.
+            Experienced IT professional with expertise in leading software
+            development, ensuring accessibility, customer experience, and
+            usability, seeking opportunities in a dynamic and growing company to
+            excel in a first-class career.
           </Desc>
           <SocialContainer>
             <SocialIcon color="3B5999">
@@ -145,7 +145,6 @@ const Footer = () => {
             <MailOutline style={{ marginRight: '10px' }} />{' '}
             nesar.uddin100@gmail.com
           </ContactItem>
-          {/* <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" /> */}
         </Right>
       </Wrapper>
     </Container>

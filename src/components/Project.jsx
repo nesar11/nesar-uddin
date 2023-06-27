@@ -43,7 +43,7 @@ const Circle = styled.div`
 
 const Image = styled.img`
   min-width: 350px;
-  height: 280px;
+  /* height: 280px; */
   z-index: 2;
 `;
 

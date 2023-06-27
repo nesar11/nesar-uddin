@@ -37,19 +37,28 @@ const MenuItem = styled.div`
   margin-left: 25px;
   ${mobile({ fontSize: '12px', marginLeft: '10px' })}
   & a:link {
-    text-decoration: none;
+    text-decoration: hide;
   }
 
   & a:visited {
-    text-decoration: none;
+    text-decoration: hide;
   }
 
   & a:hover {
-    text-decoration: none;
+    text-decoration: hide;
   }
 
   & a:active {
-    text-decoration: none;
+    text-decoration: hide;
+  }
+  text-decoration: hide;
+
+  &:focus,
+  &:hover,
+  &:visited,
+  &:link,
+  &:active {
+    text-decoration: hide;
   }
 `;
 const Logo = styled.h1`
