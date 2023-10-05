@@ -32,10 +32,11 @@ const Info = styled.div`
   align-items: center;
   justify-content: center;
 `;
-const Title = styled.h3`
+const Title = styled.p`
   text-align: center;
   color: #393939;
   margin-bottom: 20px;
+  ${mobile({ marginBottom: '20px' })}
 `;
 const Button = styled.button`
   border: none;
@@ -45,7 +46,7 @@ const Button = styled.button`
   cursor: pointer;
   font-weight: 600;
 `;
-const Type = styled.h1`
+const Type = styled.h2`
   text-align: center;
   color: #393939;
   margin-bottom: 20px;

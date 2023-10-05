@@ -29,6 +29,7 @@ const Left = styled.div`
   flex-direction: column;
   padding: 20px;
   margin-left: 20px;
+  ${mobile({ flexDirection: 'column' })}
 `;
 
 const Logo = styled.h1``;
@@ -79,7 +80,7 @@ const ListItem = styled.li`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
-  ${mobile({ flexDirection: 'column' })}
+  ${mobile({ flexDirection: 'column', innerWidth: '80%' })}
   ${mobile({ backgroundColor: '#fff8f8' })}
 `;
 

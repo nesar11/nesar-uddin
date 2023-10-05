@@ -3,12 +3,13 @@ import { styled } from 'styled-components';
 
 const Info = styled.div`
   opacity: 0;
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 85%;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(176, 2, 77);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 3;
   padding: 20px;
   align-items: center;
@@ -47,8 +48,12 @@ const Image = styled.img`
   z-index: 2;
 `;
 
-const Title = styled.h2``;
-const Desc = styled.span``;
+const Title = styled.h2`
+  color: gray;
+`;
+const Desc = styled.span`
+  color: white;
+`;
 const Project = ({ item }) => {
   return (
     <Container>

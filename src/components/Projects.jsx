@@ -13,10 +13,10 @@ const Container = styled.div`
   margin: auto;
   ${mobile({ width: '100%', padding: '5px' })}
 `;
-const PageTitle = styled.h1`
+const PageTitle = styled.h2`
   width: 100%;
   text-align: center;
-  color: #b00296;
+  color: rgb(176, 2, 77);
   transition: step-start();
 `;
 const Projects = () => {

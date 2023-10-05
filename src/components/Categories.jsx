@@ -23,7 +23,8 @@ const PageTitle = styled.h1`
   width: 100%;
   padding-top: 30px;
   text-align: center;
-  color: #b00296;
+  color: rgb(176, 2, 77);
+  ${mobile({ marginTop: '80px' })}
 `;
 const Categories = () => {
   return (
