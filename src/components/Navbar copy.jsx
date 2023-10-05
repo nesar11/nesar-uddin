@@ -36,19 +36,34 @@ const MenuItem = styled.div`
   cursor: pointer;
   margin-left: 25px;
   ${mobile({ fontSize: '12px', marginLeft: '10px' })}
-  text-decoration: none; /* Remove underline from all links */
-  /* &:focus,
+  & a:link {
+    text-decoration: hide;
+  }
+
+  & a:visited {
+    text-decoration: hide;
+  }
+
+  & a:hover {
+    text-decoration: hide;
+  }
+
+  & a:active {
+    text-decoration: hide;
+  }
+  text-decoration: hide;
+
+  &:focus,
   &:hover,
   &:visited,
   &:link,
   &:active {
-    text-decoration: none; /* Remove underline during various states */
-  /* } */
+    text-decoration: hide;
+  }
 `;
-const StyledLink = styled(Link)`
+const Anchor = styled.a`
   text-decoration: none;
-  color: #000; /* Set your desired text color */
-  /* Add more styles as needed */
+  cursor: pointer;
 `;
 const Logo = styled.h1`
   font-weight: bold;
@@ -63,23 +78,28 @@ const Navbar = () => {
         </Left>
         <Center></Center>
         <Right>
-          <StyledLink to="/">
-            <MenuItem> Home</MenuItem>
-          </StyledLink>
-
-          <StyledLink to="/about">
-            <MenuItem> About</MenuItem>
-          </StyledLink>
-
-          <StyledLink to="/skills">
-            <MenuItem>Skills</MenuItem>
-          </StyledLink>
-          <StyledLink to="/Service">
+          <Anchor>
+            <Link to="/">
+              <MenuItem> Home</MenuItem>
+            </Link>
+          </Anchor>
+          <Anchor>
+            <Link to="/about">
+              <MenuItem> About</MenuItem>
+            </Link>
+          </Anchor>
+          <Link to="/skills">
+            <MenuItem>
+              {' '}
+              <Anchor>Skills </Anchor>
+            </MenuItem>
+          </Link>
+          <Link to="/Service">
             <MenuItem> Service</MenuItem>
-          </StyledLink>
-          <StyledLink to="/projects">
+          </Link>
+          <Link to="/projects">
             <MenuItem> Projects</MenuItem>
-          </StyledLink>
+          </Link>
           <MenuItem>Contact</MenuItem>
         </Right>
       </Wrapper>
