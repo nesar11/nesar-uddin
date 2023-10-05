@@ -54,22 +54,22 @@ export const categories = [
   {
     id: 5,
     // img: 'https://render.com/static/fedb9832395a0f61cbe04b2a6ca08ed1/improved-git-flow-2.png',
-    title: 'GIT, Github, Git Lab',
-    cat: 'version control',
+    title: 'Github, Bitbucket, Git Lab',
+    cat: 'Version control',
     icon: 'https://www.clipartmax.com/png/middle/346-3466916_in-my-previous-post-about-no-longer-supporting-angularjs-angular-react-vue.png',
   },
   {
     id: 6,
     //  img: 'https://wac-cdn.atlassian.com/dam/jcr:6c29f964-b3af-4f7f-bf2d-a8f9623dbcb5/Overview-Image-JSW-JSM.png?cdnVersion=1022',
-    title: 'Jira Software Service',
-    cat: 'Backend',
+    title: 'Jira, Asana, Trello',
+    cat: 'Project Management Tools',
     icon: 'https://res.cloudinary.com/rangle/image/upload/v1659119469/rangle.io/blogs/migrating-an-angular-1-application-to-react/feature-photo.gif',
   },
   {
     id: 6,
     // img: 'https://wac-cdn.atlassian.com/dam/jcr:6c29f964-b3af-4f7f-bf2d-a8f9623dbcb5/Overview-Image-JSW-JSM.png?cdnVersion=1022',
     title: 'Mobile App Flutter',
-    cat: 'mobile app',
+    cat: 'Mobile app',
     icon: 'https://res.cloudinary.com/rangle/image/upload/v1659119469/rangle.io/blogs/migrating-an-angular-1-application-to-react/feature-photo.gif',
   },
 ];
@@ -89,8 +89,8 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'DOOH',
-    desc: 'Digital signage solution to book the slot on digital screen',
+    title: 'Hotel Booking',
+    desc: 'Book hotel room angagging multiple merchant hotel',
     img: 'https://raw.githubusercontent.com/nesar11/public/master/pp12.png',
   },
   {
@@ -113,8 +113,8 @@ export const projects = [
   },
   {
     id: 6,
-    title: 'Expo Slot Booking System',
-    desc: 'Its booking online payment gateway and tracking the visitor with QR registration',
+    title: 'QR Code coupon',
+    desc: 'Digital Marketing tool QR redemptino sytem for multi merchant',
     img: 'https://raw.githubusercontent.com/nesar11/public/master/pp2.png',
   },
   {
@@ -132,19 +132,19 @@ export const projects = [
   },
   {
     id: 11,
-    title: 'Digital Signage',
-    desc: 'Bulk buying sytem for groceries solutions. billing service integrated  ',
+    title: 'E-Commerce',
+    desc: 'Online buying system  ',
     img: 'https://raw.githubusercontent.com/nesar11/public/master/pp11.png',
   },
   {
     id: 12,
-    title: 'Digital Signage',
-    desc: 'Bulk buying sytem for groceries solutions. billing service integrated  ',
+    title: 'DOOH',
+    desc: 'Billboard slot booking system  ',
     img: 'https://raw.githubusercontent.com/nesar11/public/master/pp3.png',
   },
   {
     id: 13,
-    title: 'Static and Dital screen Booking Platform',
+    title: 'DOOH Mobile',
     desc: 'Advertiser or Agency allow to book the slot on static and digital screen ',
     img: 'https://raw.githubusercontent.com/nesar11/public/master/pp1.png',
   },

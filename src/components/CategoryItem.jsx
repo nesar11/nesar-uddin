@@ -45,12 +45,17 @@ const Button = styled.button`
   cursor: pointer;
   font-weight: 600;
 `;
-
+const Type = styled.h3`
+  text-align: center;
+  color: #393939;
+  margin-bottom: 20px;
+`;
 const CategoryItem = ({ item }) => {
   return (
     <Container>
       <Image src={item.img} />
       <Info>
+        <Type>{item.cat}</Type>
         <Title>{item.title} </Title>
         <Button> Read More</Button>
       </Info>
