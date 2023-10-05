@@ -32,7 +32,7 @@ const Info = styled.div`
   align-items: center;
   justify-content: center;
 `;
-const Title = styled.h1`
+const Title = styled.h3`
   text-align: center;
   color: #393939;
   margin-bottom: 20px;
@@ -45,7 +45,7 @@ const Button = styled.button`
   cursor: pointer;
   font-weight: 600;
 `;
-const Type = styled.h3`
+const Type = styled.h1`
   text-align: center;
   color: #393939;
   margin-bottom: 20px;

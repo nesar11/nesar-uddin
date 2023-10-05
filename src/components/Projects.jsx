@@ -1,6 +1,7 @@
 import { styled } from 'styled-components';
 import { projects } from '../data';
 import Product from './Project';
+import { mobile } from '../reponsive';
 const Container = styled.div`
   width: 80%;
   padding: 20px;
@@ -10,6 +11,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   margin: auto;
+  ${mobile({ width: '100%', padding: '5px' })}
 `;
 const PageTitle = styled.h1`
   width: 100%;

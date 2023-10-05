@@ -5,20 +5,19 @@ import { abouts } from '../data';
 const Container = styled.div`
   flex: 1;
   width: 80%;
-  min-height: 40vh;
+  min-height: 45vh;
   padding-bottom: 50px;
   margin: auto;
   min-width: 280px;
   height: 250px;
-  padding: 20px;
   margin: auto;
   align-items: center;
   justify-content: center;
   box-shadow: 0.2px 2.9825618267059326px 7.456404209136963px 0px #0000001a;
   position: relative;
 
-  &:hover {
-    background-color: #f8d0f4c2;
+  @media (max-width: 768px) {
+    flex-direction: column;
   }
 `;
 
@@ -27,24 +26,18 @@ const Image = styled.img`
   display: flex;
   z-index: 2;
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
 `;
 
-const PageTitle = styled.h1`
-  width: 100%;
-  text-align: center;
-  color: #b00296;
-  transition: step-start();
-`;
-const Title = styled.h4`
+const Title = styled.p`
   padding: 20px;
 `;
 
-const Wrapper = styled.div`
-  display: flex;
-`;
-const Left = styled.div``;
-
-const Right = styled.div``;
 const Button = styled.button`
   border: none;
   padding: 10px;
@@ -54,6 +47,40 @@ const Button = styled.button`
   font-weight: 600;
   margin: 20px;
 `;
+
+const Wrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
+
+const Left = styled.div`
+  flex: 1;
+
+  @media (max-width: 768px) {
+    order: 2;
+  }
+`;
+
+const Right = styled.div`
+  flex: 1;
+
+  @media (max-width: 768px) {
+    order: 1;
+    font-weight: 12px;
+  }
+`;
+
+const PageTitle = styled.h1`
+  width: 100%;
+  text-align: center;
+  color: #b00296;
+  transition: step-start();
+`;
+
 const About = () => {
   return (
     <div>
@@ -66,8 +93,8 @@ const About = () => {
                 <Image src={item.image} alt="about" />
               </Left>
               <Right>
-                <Title> {item.title}</Title>
-                <Button> Read More</Button>
+                <Title>{item.title}</Title>
+                <Button>Read More</Button>
               </Right>
             </Wrapper>
           </div>

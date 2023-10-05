@@ -54,6 +54,9 @@ const Logo = styled.h1`
   font-weight: bold;
   ${mobile({ fontSize: '24px' })}
 `;
+const Title = styled.span`
+  margin-top: -50px;
+`;
 const Navbar = () => {
   return (
     <Container>

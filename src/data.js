@@ -24,6 +24,13 @@ export const sliderItems = [
 
 export const categories = [
   {
+    id: 0,
+    // img: 'https://raw.githubusercontent.com/nesar11/assessment-full-stack-app-backend/master/uploads/ARB-background.png',
+    title: 'Adobe XD, Figma',
+    cat: 'UI & UX',
+    icon: 'https://www.clipartmax.com/png/middle/346-3466916_in-my-previous-post-about-no-longer-supporting-angularjs-angular-react-vue.png',
+  },
+  {
     id: 1,
     // img: 'https://raw.githubusercontent.com/nesar11/assessment-full-stack-app-backend/master/uploads/ARB-background.png',
     title: 'React, Angular, Bootstrap',
@@ -47,7 +54,7 @@ export const categories = [
   {
     id: 4,
     // img: 'https://raw.githubusercontent.com/nesar11/assessment-full-stack-app-backend/master/uploads/cloud%20computing.png',
-    title: 'AWS, Digital Ocean, Heroku',
+    title: 'AWS, Digital Ocean, Heroku, Netlify, Vercel, WHM',
     cat: 'Cloud Computing',
     icon: 'https://electronics360.globalspec.com/images/assets/117/19117/Cloud_computing_main_ai.jpg',
   },

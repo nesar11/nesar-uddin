@@ -6,12 +6,18 @@ import { styled } from 'styled-components';
 const Container = styled.div`
   width: 80%;
   padding: 80px;
+  margin: 30px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  ${mobile({ height: '100%', padding: '0px', flexDirection: 'column' })}
+  ${mobile({
+    height: '100%',
+    marginTop: '380px',
+    padding: '0px',
+    flexDirection: 'column',
+  })}
 `;
 const PageTitle = styled.h1`
   width: 100%;
