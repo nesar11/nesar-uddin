@@ -29,7 +29,7 @@ const PageTitle = styled.h1`
 const Categories = () => {
   return (
     <Container>
-      <PageTitle>Skills</PageTitle>;
+      <PageTitle>Skills</PageTitle>
       {categories.map((item) => (
         <CategoryItem item={item} key={item.id} />
       ))}
