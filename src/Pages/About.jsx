@@ -36,6 +36,7 @@ const Image = styled.img`
 
 const Title = styled.p`
   padding: 20px;
+  white-space: pre-line;
 `;
 
 const Button = styled.button`
@@ -67,6 +68,7 @@ const Left = styled.div`
 
 const Right = styled.div`
   flex: 1;
+  padding: 20px;
 
   @media (max-width: 768px) {
     order: 1;
@@ -84,7 +86,7 @@ const PageTitle = styled.h1`
 const About = () => {
   return (
     <div>
-      <PageTitle>About</PageTitle>
+      <PageTitle>About Me</PageTitle>
       <Container>
         {abouts.map((item) => (
           <div item={item} key={item.id}>

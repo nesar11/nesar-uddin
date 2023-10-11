@@ -26,14 +26,14 @@ export const categories = [
   {
     id: 0,
     // img: 'https://raw.githubusercontent.com/nesar11/assessment-full-stack-app-backend/master/uploads/ARB-background.png',
-    title: 'Adobe XD, Figma',
+    title: 'Adobe XD, Figma, Adobe Photoshop, Adobe Illustrator',
     cat: 'UI & UX',
     icon: 'https://www.clipartmax.com/png/middle/346-3466916_in-my-previous-post-about-no-longer-supporting-angularjs-angular-react-vue.png',
   },
   {
     id: 1,
     // img: 'https://raw.githubusercontent.com/nesar11/assessment-full-stack-app-backend/master/uploads/ARB-background.png',
-    title: 'React, Angular, Bootstrap',
+    title: 'React, NextJS, Angular, Bootstrap',
     cat: 'Frontend',
     icon: 'https://www.clipartmax.com/png/middle/346-3466916_in-my-previous-post-about-no-longer-supporting-angularjs-angular-react-vue.png',
   },
@@ -160,7 +160,7 @@ export const services = [
   {
     id: 1,
     title: 'Web Developement',
-    desc: 'Web development also includes the use of frameworks, libraries, and tools to streamline the development process, as well as database management, version control, deployment, testing, and performance optimization.  ',
+    desc: ' Are you looking for expert web development services tailored to your unique needs? Look no further! With over [X years] of experience in the industry, I specialize in delivering top-notch web development solutions. My services encompass a wide array of areas, ensuring a seamless and efficient development process  ',
     image:
       'https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   },
@@ -217,7 +217,7 @@ export const services = [
 export const abouts = [
   {
     title:
-      'Hello and thanks for visiting my profile! With over 8 years experience in Information Technology in different industry solutions. I have been playing a lead role throughout a software development to ensure maximum accessibility expectation, customer experience and usability. I am a team player who thrives on creating engaging creative solutions, meet deadline orientated and has the ability to produce detailed technical specifications from client requirements. I am a quick learner who can absorb new ideas and can communicate clearly and effectively. Currently looking for a opportunity to join a dynamic, ambitious and growing company and forge a career as a first class.',
+      "Greetings and thank you for visiting my profile!\n\nWith a robust background spanning over 8 years in Information Technology across diverse industry sectors, I have consistently taken on leadership roles in software development initiatives, ensuring the highest standards of accessibility, customer experience, and usability. I thrive in collaborative environments, playing a pivotal role in delivering innovative solutions that captivate and engage users. My commitment to meeting stringent deadlines is unwavering, and I possess the unique ability to translate client requirements into meticulously detailed technical specifications.\n\nI pride myself on being a team player, adept at fostering creativity and delivering results that exceed expectations. My adaptability shines through as I swiftly grasp new concepts and ideas, coupled with clear and effective communication skills. Currently, I am actively seeking an opportunity to contribute my expertise to a dynamic, ambitious, and growing company. I am eager to forge a career path marked by excellence and innovation, making substantial contributions to the organization's success.\n\nThank you for considering my profile. I look forward to the prospect of collaborating with a forward-thinking company and making significant strides together.",
     image:
       'https://raw.githubusercontent.com/nesar11/assessment-full-stack-app-backend/master/uploads/about%20nesar.jpeg',
   },
