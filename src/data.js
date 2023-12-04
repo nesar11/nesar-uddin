@@ -33,14 +33,14 @@ export const categories = [
   {
     id: 1,
     // img: 'https://raw.githubusercontent.com/nesar11/assessment-full-stack-app-backend/master/uploads/ARB-background.png',
-    title: 'React, NextJS, Angular, Bootstrap',
+    title: 'ReactJS, NextJS, Angular, Bootstrap',
     cat: 'Frontend',
     icon: 'https://www.clipartmax.com/png/middle/346-3466916_in-my-previous-post-about-no-longer-supporting-angularjs-angular-react-vue.png',
   },
   {
     id: 2,
     // img: 'https://raw.githubusercontent.com/nesar11/assessment-full-stack-app-backend/master/uploads/nen.png',
-    title: 'NodeJS, Express, NestJS',
+    title: 'NodeJS, ExpressJS, NestJS',
     cat: 'Backend',
     icon: 'https://res.cloudinary.com/rangle/image/upload/v1659119469/rangle.io/blogs/migrating-an-angular-1-application-to-react/feature-photo.gif',
   },
@@ -160,7 +160,7 @@ export const services = [
   {
     id: 1,
     title: 'Web Developement',
-    desc: ' Are you looking for expert web development services tailored to your unique needs? Look no further! With over [X years] of experience in the industry, I specialize in delivering top-notch web development solutions. My services encompass a wide array of areas, ensuring a seamless and efficient development process  ',
+    desc: ' Are you looking for expert web development services tailored to your unique needs? Look no further! With over 7 years of experience in the industry, I specialize in delivering top-notch web development solutions. My services encompass a wide array of areas, ensuring a seamless and efficient development process  ',
     image:
       'https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   },
